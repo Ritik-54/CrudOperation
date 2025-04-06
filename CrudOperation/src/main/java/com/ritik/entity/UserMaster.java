@@ -12,7 +12,6 @@ public class UserMaster {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	public long id;
 	public String username;
-	public String changes;
 	public String password;
 	public String status;
 	public String createdBy;
